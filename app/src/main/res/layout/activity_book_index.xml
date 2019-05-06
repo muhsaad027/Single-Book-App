@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.saadiqbal.ghalibbookindividual.FirstBookIndex"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:minHeight="?attr/actionBarSize"
+        android:background="#bf1e2e"
+        android:layout_width="match_parent"
+        android:layout_height="64dp">
+        <TextView
+            android:id="@+id/textHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="دیوانِ غالب"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginRight="20dp"
+            android:textSize="27dp"
+            android:textColor="#ffffff"
+            />
+        <ImageView
+            android:layout_marginTop="2dp"
+            android:id="@+id/homescreen"
+            android:layout_weight="1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/ic_home_white_24dp" />
+    </android.support.v7.widget.Toolbar>
+    <TextView
+        android:id="@+id/thisindexehading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="فہرست"
+        android:background="#d7d7d9"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="24dp"
+        android:textColor="#bf1e2e"
+        />
+    <ListView
+        android:id="@+id/navList2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    </ListView>
+</LinearLayout>

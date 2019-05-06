@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/newbackground"
+    tools:context="com.example.saadiqbal.ghalibbookindividual.info">
+
+    <ImageView
+        android:id="@+id/home_sc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_home_white_36dp"
+        android:backgroundTint="#000"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="30dp"
+        />
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/logo"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:lineSpacingExtra="9dp"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:text="Ghalibs first Deewan was published in 1841.\nThis world rediscovered Ghalib 100 years after his death.\nThat was 1968.\n Saleem Aazer has done tremendous research to compile this new edition. \nThis Deewan e Ghalib has 2622 ashaar."
+        android:textSize="15dp"
+        />
+    <TextView
+
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:text="copyright © 2018, Zafar Ibrahim"
+        android:layout_marginBottom="5dp"
+        />
+
+</LinearLayout>
